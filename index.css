@@ -1,92 +1,93 @@
-* {
+*{
+
     margin: 0;
+
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-family: sans-serif;
+
     box-sizing: border-box;
+
 }
 
-.container {
+.container{
+
     width: 100%;
+
     height: 100vh;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+
+    background-color: aqua;
+
     display: flex;
+
     align-items: center;
+
     justify-content: center;
+
 }
 
-.calculator {
-    background-color: #1a2228;
-    border-radius: 15px;
-    padding: 25px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-}
+.calculator{
 
-.calculator h2 {
-    color: #fff;
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 22px;
-    letter-spacing: 1px;
-}
+    background-color: darkslategrey;
 
-.calculator form .display {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 20px;
-}
-
-.calculator form .display input {
-    text-align: right;
-    flex: 1;
-    height: 70px;
-    font-size: 36px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    color: #333;
-    padding: 0 15px;
-    border: none;
-    outline: none;
-    box-shadow: inset 0 2px 5px rgba(0,0,0,0.2);
-}
-
-.calculator form input[type="button"] {
-    border: 0;
-    outline: 0;
-    width: 60px;
-    height: 60px;
     border-radius: 10px;
-    background-color: #334155;
+
+    padding: 20px;
+
+}
+
+.calculator form input{
+
+    border: 0;
+
+    outline: 0;
+
+    width: 60px;
+
+    height: 60px;
+
+    border-radius: 10px;
+
+    background-color: -8px -8px 15px rgb(225,225, 225,0.1), 5px 5px 15px rgb(0, 0, 0,0.2);
+
+    background: transparent;
+
     font-size: 20px;
+
     cursor: pointer;
-    margin: 6px;
+
+    margin: 10px;
+
     color: #fff;
-    transition: background-color 0.2s, transform 0.1s;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
 }
 
-.calculator form input[type="button"]:hover {
-    background-color: #475569;
+form.display{
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    margin: 20px 0;
+
 }
 
-.calculator form input[type="button"]:active {
-    transform: scale(0.95);
+form.display input{
+
+    text-align: right;
+
+    flex: 1;
+
+    font-size: 45px;
+
+    box-shadow: none;
+
+    color: black;
+
 }
 
-.calculator form input.operator {
-    background-color: #f59e0b;
-    color: #fff;
-}
+form input.equal{
 
-.calculator form input.operator:hover {
-    background-color: #d97706;
-}
+ width: 145px;
 
-.calculator form input.equal {
-    width: 136px;
-    background-color: #10b981;
-    color: #fff;
-}
-
-.calculator form input.equal:hover {
-    background-color: #059669;
-}
+} add a title simole calculator add css style too 
